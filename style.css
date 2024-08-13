@@ -1,0 +1,244 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ header{
+    width: 100%;
+    height: 50px;
+    background-color:black;
+    padding-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:2px;
+
+ }
+ #navigation{
+    /* color:white; */
+     list-style: none;
+   overflow: hidden;
+  
+ }
+ #navigation li{
+    float: left;
+ }
+  #navigation li a{
+    display: block;
+    /* text-align: center; */
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-right: 60px;
+    font-size:larger;
+    text-decoration: none;
+    
+ } 
+ /* #navigation li:hover{
+    background-color:rgb(122, 108, 108) ;
+ } */
+ #navigation li a:hover:not(.active){
+    background-color:rgb(122, 108, 108);
+ }
+ .active{
+    background-color: rgb(227, 227, 81);
+ }
+  .drop{
+    display: none;
+    position: absolute;
+   /* background-color:white; */
+   text-decoration: none;
+  /* z-index: 1; */
+}
+.drop a{
+    color: rgb(249, 220, 1);
+    font-weight: bolder;
+    text-decoration: none;
+   
+}
+ 
+ .dropdown:hover .drop{
+    display: block;
+ }
+ #banner{
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/28/12/17/fast-food-6974507_1280.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ #banner:hover{
+    background-image: url(https://media.istockphoto.com/id/1912320552/photo/garlic-fried-rice-skewer-whole-grilled-chicken-peri-peri-fried-wings-platter-beef-noodle-soup.jpg?s=1024x1024&w=is&k=20&c=N_ElBmQlHL_M4L5m6SO1SMqHfAqNxUbNPvpVXmb_Fq4=);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ }
+ .list{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+ }
+ .box{
+    width: 200px;
+    height: 300px;
+    background-color: whitesmoke;
+    font-family: "Crimson Text", serif;
+    text-align: justify;
+ }
+ .box:hover{
+    background-color:rgb(122, 108, 108);
+    color: white;
+ }
+ .food{
+    width: 100%;
+    height: 600px; 
+   padding-top: 30px; 
+ }
+ .menu{
+    width: 550px;   
+    height: 100px;
+    
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    display: flex;
+    
+ }
+ .menu  img{
+    width: 200px;
+    height:100px;
+   
+ }
+ .sel{
+    padding-top: 30px;
+    padding-left: 20px;
+    margin-left: 20px;
+   font-size: larger; 
+   font-weight: 200;
+ }
+ .veg{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/28/12/17/fast-food-6974507_1280.jpg);
+ }
+ .vegmenu{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+     margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+ }
+ .vegmenu img{
+    width: 200px;
+    height: 150px;
+ }
+ .nonveg{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/28/12/17/fast-food-6974507_1280.jpg);
+    
+ }
+ .nonmenu{
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    float: left;
+     margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bolder;
+ }
+ .nonmenu img{
+    width: 200px;
+    height: 150px;
+ }
+ .contact{
+    width: 100%;
+    height: 600px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/01/28/12/17/fast-food-6974507_1280.jpg);
+   display: flex;
+  
+}
+  form{
+   padding-left: 40px;
+   padding-top: 40px;
+
+ }
+ form table{
+   width: 500px;
+   height: 300px;
+ }
+ input{
+   width: 250px;
+   height: 60px;
+ }
+#email{
+   width: 500px;
+}
+#msg{
+   width: 500px;
+   height: 100px;
+}
+table #button{
+   font-size:larger;
+   font-weight: 600;
+   background-color: rgb(249, 220, 1);
+   
+}
+.about{
+   width:100%;
+   height: 600px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.us{
+  width: 650px;
+  height: 600px;
+  background-color: black;
+  color: white;
+}
+.us img{
+   width:600px;
+   height: 600px;
+}
+.foot{
+   width: 100%;
+   height: 300px;
+   background-color: black;
+   display: flex;
+   justify-content: space-around;
+   padding-top: 40px;
+}
+.end{
+   width: 200px;
+   height: 250px;
+   background-color: aliceblue;
+}
+footer{
+   width: 100%;
+   height: 300px;
+   background-color: rgb(77, 66, 66);
+   color:antiquewhite;
+   padding-top: 30px;
+  
+}
+footer h3{
+   color: aliceblue;
+}
+.row{
+   display: flex;
+   justify-content:space-around;
+}
+footer ul{
+   padding-top: 10px;
+}
+footer ul li{
+   list-style-type: none;
+}
